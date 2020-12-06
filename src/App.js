@@ -10,7 +10,7 @@ function App() {
   return (
     <GlobalProvider>
       <div className="flex place-content-center">
-        <div className="bg-gray-100">
+        <div className=" bg-gray-100 rounded-tr-2xl rounded-tl-2xl rounded-br-2xl rounded-bl-2xl">
           <Header />
           <Balance />
           <IncomeExpense/>

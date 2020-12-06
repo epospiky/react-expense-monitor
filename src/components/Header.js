@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <h1 className="text-2xl font-bold text-center   bg-white py-8">
+        <h1 className="text-2xl font-bold text-center   bg-white py-5">
             Expense Monitor
         </h1>
     )
