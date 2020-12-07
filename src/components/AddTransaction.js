@@ -8,8 +8,8 @@ const AddTransaction = () => {
     const [amount, setAmount] = useState(0);
     const {addTransaction} = useContext(GlobalContext);
 
-    function handleSubmit(){
-       // e.preventDefault()
+    function handleSubmit(e){
+       e.preventDefault()
         const addNewTransaction = {
             id: Math.floor(Math.random() * 100000000),
             name,
